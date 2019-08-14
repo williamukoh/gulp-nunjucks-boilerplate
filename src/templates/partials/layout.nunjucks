@@ -1,0 +1,86 @@
+<!-- Last generated: @@date-->
+<!doctype html>
+<html class="no-js" lang="en-NG">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>{{ page_title }}</title>
+        
+        <meta name="description" content="I'm a Product Designer and Developer working at the crossroads of design, software technology and business.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {# <link rel="apple-touch-icon" href="apple-touch-icon.png"> #}
+        <meta name="description" content="I'm a Product Designer and Developer working at the crossroads of design, software technology and business.">
+        <meta name="image" content="https://williamukoh.com/assets/img/og/banner_1200x630.png">
+        
+        <meta itemprop="name" content="{{ page_title }}">
+        <meta itemprop="description" content="I'm a Product Designer and Developer working at the crossroads of design, software technology and business.">
+        <meta itemprop="image" content="https://williamukoh.com/assets/img/og/banner_1200x630.png">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="{{ page_title }}">
+        <meta name="twitter:description" content="I'm a Product Designer and Developer working at the crossroads of design, software technology and business.">
+        <meta name="twitter:site" content="@williamukoh">
+        <meta name="twitter:creator" content="@williamukoh">
+        <meta name="twitter:image:src" content="https://williamukoh.com/assets/img/og/banner_1024x512.png">
+
+        <meta name="og:title" content="{{ page_title }}">
+        <meta name="og:description" content="I'm a Product Designer and Developer working at the crossroads of design, software technology and business.">
+        <meta name="og:image" content="https://williamukoh.com/assets/img/og/banner_1200x630.png">
+        <meta name="og:url" content="https://williamukoh.com">
+        <meta name="og:site_name" content="{{ page_title }}">
+        <meta name="og:locale" content="en_NG">
+        <meta name="og:type" content="website">
+        <meta name="fb:admins" content="529075280">
+
+        <meta property="og:image" content="https://williamukoh.com/assets/img/og/banner_1200x630.png" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta property="og:image" content="https://williamukoh.com/assets/img/og/banner_400x400.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="400" />
+
+        <script type='application/ld+json'> 
+        {
+            "@context": "http://www.schema.org",
+            "@type": "person",
+            "name": "William Ukoh",
+            "jobTitle": "Product Designer and Developer",
+            "url": "https://williamukoh.com",
+            "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": " ",
+                    "addressRegion": "Lagos",
+                    "addressCountry": "Nigeria"
+            }
+        }
+        </script>
+
+        <link href="//fonts.googleapis.com/css?family=Nunito:300,400,500,700" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/build.min.css">
+
+        {% block head_content %} {% endblock %}
+        
+    </head>
+    <body class="{{ body_class }}">
+
+        <div class="page-wrapper">
+
+            <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+            {% include "partials/header.nunjucks" %}
+
+            {% block content %} {% endblock %}
+
+            {% include "partials/footer.nunjucks" %}
+
+        </div>
+
+        <script src="assets/js/build.min.js"></script>
+        <!-- @@ga -->
+    </body>
+</html>

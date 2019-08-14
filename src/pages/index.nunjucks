@@ -1,0 +1,22 @@
+{# set variables here #}
+{% set page_title = "Home Page" %}
+
+{# extend base layout #}
+{% extends "layout.nunjucks" %}
+
+{# page content #}
+{% block content %}
+        
+    <div class="main-wrapper">
+
+        <main role="main" id="main">
+
+            <div class="page-content">
+                <h1>Welcome to {{ page_title }}</h1>
+            </div>
+        
+        </main>
+    
+    </div>
+
+{% endblock %}

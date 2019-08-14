@@ -4,13 +4,22 @@
   "description": "A boilerplate for building web (HTML, CSS, JavaScript) projects using Gulp and Nunjucks",
   "main": "index.js",
   "scripts": {
+    "dev": "npx gulp auto-reload --task dev",
+    "build": "NODE_ENV=production; npx gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/williamukoh/gulp-nunjucks-boilerplate.git"
   },
-  "keywords": [],
+  "keywords": [
+    "nunjucks",
+    "bulma",
+    "html",
+    "css",
+    "gulp",
+    "javascript"
+  ],
   "author": "@williamukoh",
   "license": "MIT",
   "bugs": {
@@ -48,7 +57,6 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
     "merge-stream": "^2.0.0",
-    "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.6.0",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",

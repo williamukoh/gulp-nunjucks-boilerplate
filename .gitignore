@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+#ignore local and dist directories
+/local
+/dist
