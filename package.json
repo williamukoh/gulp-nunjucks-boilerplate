@@ -1,6 +1,6 @@
 {
   "name": "gulp-nunjucks-boilerplate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A boilerplate for building web (HTML, CSS, JavaScript) projects using Gulp and Nunjucks",
   "main": "index.js",
   "scripts": {
